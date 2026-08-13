@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!--***************Stealing Semantic UI***************-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+
+    <!--This is the title-->
+    <title>Fio Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="ui container" id="appContainer">
+      <div class="ui raised very padded segment">
+    <h1>Taylor Starlings FIO Weather App</h1>
+
+    <!-- ***************User can enter a location *************** -->
+    <!-- This is scary for me because the JS can handle no input but it seems mateo handles the input -->
+    <form class="ui form" id="weatherForm">
+      <div class="field">
+        <label for="weatherlocation">Location</label>
+        <input
+          type="text"
+          id="weatherlocation"
+          name="weatherlocation"
+          placeholder="Enter a city..."
+        />
+      </div>
+
+      <button class="ui primary button" type="submit">Submit</button>
+    </form>
+
+    <!-- // ***************App displays forcast for that location over 5 days***************-->
+    
+    <div id="currentConditions" class="ui raised segment"></div>
+
+    <div id="dailyForecast" class="ui cards"></div>
+
+    <!--***************User can reset all data and start over***************-->
+    
+    <button id="resetalldata" class="ui primary button" style="margin-top: 20px;">
+      Reset All Data
+    </button>
+
+    <script src="script.js"></script>
+  </div>
+  </body>
+</html>

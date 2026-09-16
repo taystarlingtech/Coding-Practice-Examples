@@ -1,0 +1,11 @@
+order_id,customer_id,order_date,product,quantity,unit_price,status
+1001,C-10,2026-09-01,Keyboard,2,29.99,shipped
+1002,C-11,2026-09-02,Mouse,1,14.50,pending
+1003,C-12,2026-09-03,Monitor,1,189.00,shipped
+1003,C-12,2026-09-03,Monitor,1,189.00,shipped
+1004,,2026-09-04,Headset,1,49.00,shipped
+1005,C-10,2026-09-05,Cable,-3,5.00,cancelled
+1006,C-13,not-a-date,Keyboard,2,29.99,shipped
+1007,C-14,2026-09-07,Mouse,1,abc,pending
+1008,C-15,2026-09-08,Monitor,1,199.00,SHIPPD
+1009,C-16,2026-09-09,Webcam,2,79.00,shipped

@@ -11,16 +11,13 @@ table. The three steps match a tiny ETL job:
   2. Transform - parse quotes with BeautifulSoup, then tidy them with Pandas
   3. Load     - write a CSV you can open in Excel or feed to project 04
 
-This is NOT a dashboard and it is NOT an analysis of the quotes.
-It is the "get the data into a file" step that reporting work depends on.
-
 Why this site
 -------------
 https://quotes.toscrape.com/ is a public practice site made for learning
 scrapers. Scraping a random company's production site without permission
 is a bad idea (ToS, robots.txt, and layout that can change without notice).
 
-You already have a Scrapy tutorial folder in this Python directory.
+There is already a Scrapy tutorial folder in this Python directory.
 This project uses requests + BeautifulSoup instead, so every step is
 visible in one file - closer to the infographic (BeautifulSoup, Pandas).
 

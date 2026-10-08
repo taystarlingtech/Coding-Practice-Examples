@@ -1,0 +1,17 @@
+$kind: http-request
+name: https://taystarlingt-5000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/products
+description: ""
+url: https://taystarlingt-5000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/products
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \t\"id\":142,\r
+
+    \t\"name\":\"Eraser\",\r
+
+    \t\"price\":1.50\r
+
+    }\r\n"
+order: 4000

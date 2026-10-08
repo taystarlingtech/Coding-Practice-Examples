@@ -1,0 +1,9 @@
+$kind: http-request
+name: https://taystarlingt-5000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/products/144
+description: ""
+url: https://taystarlingt-5000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/products/144
+method: PUT
+body:
+  type: json
+  content: "{\r\n\t\"price\":2.50\r\n}\r\n"
+order: 2000

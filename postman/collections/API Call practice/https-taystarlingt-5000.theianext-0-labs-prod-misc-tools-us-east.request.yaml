@@ -1,0 +1,9 @@
+$kind: http-request
+name: https://taystarlingt-5000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/products/142
+description: ""
+url: https://taystarlingt-5000.theianext-0-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/products/142
+method: DELETE
+body:
+  type: json
+  content: ""
+order: 1000
